@@ -1,0 +1,9 @@
+name: Hola mundo para CI
+on:
+  workflow_dispatch:
+jobs:
+  Mostrar-un-hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Saludar
+      run: echo "Hola mundo"
